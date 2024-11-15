@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "Unkown", email = ""},
 ]
-dependencies = ["fastapi[standard]>=0.115.5", "minio>=7.2.10", "sqlmodel>=0.0.22", "cachetools>=5.5.0"]
+dependencies = ["fastapi[standard]>=0.115.5", "minio>=7.2.10", "sqlmodel>=0.0.22"]
 requires-python = "==3.13.*"
 readme = "README.md"
 license = {text = "MIT"}

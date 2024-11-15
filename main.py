@@ -1,5 +1,4 @@
 from datetime import timedelta
-from functools import cache
 import logging
 from fastapi import Depends, FastAPI
 from minio import Minio
@@ -7,7 +6,6 @@ from typing import Annotated, List
 from sqlmodel import SQLModel
 from pydantic import SerializationInfo, field_serializer
 import uuid
-from cachetools.func import ttl_cache
 
 app = FastAPI()
 
